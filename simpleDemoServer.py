@@ -9,6 +9,7 @@ PORT = 8001  # Choose a port number you like
 class MyHandler(http.server.BaseHTTPRequestHandler):
 
     def read_data(self, path):
+        line = []
         with open(path, "rb") as file:
             try:
                 file.seek(-2, os.SEEK_END)
@@ -16,7 +17,8 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                     file.seek(-2, os.SEEK_CUR)
             except OSError:
                 file.seek(0)
-        return file.readline().split(' ')[-1]
+            line = (str)(file.readline()).split(' ')
+        return line[-2]
 
     def do_GET(self):
         # Read the request path
@@ -67,11 +69,13 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
              memory = line[-2]
              ts_memory = line[0]
          
-        response = {'cpu': f'{cpu}', 'disk' : f'{disk}', 'memory':f'{memory}', ts_cpu:f'{ts_cpu}'
-                    , ts_disk:f'{ts_disk}', ts_memory:f'{ts_memory}'}
+        response = {'ts_cpu':f'{ts_cpu}', 'cpu': f'{cpu}',
+                    'ts_disk':f'{ts_disk}', 'disk' : f'{disk}',
+                    'ts_memory':f'{ts_memory}', 'memory':f'{memory}', 
+                    }
         response_json = json.dumps(response).encode('utf-8')
         self.wfile.write(response_json)
-        cpu = (str) (self.read_data(sys.path + "/files/cpu.txt"))
+        cpu = (str) (self.read_data(sys.path[0] + "/files/cpu.txt"))
 
 
 with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
