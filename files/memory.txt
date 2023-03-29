@@ -1,1234 +1,383 @@
-Memory usage: 37.95875%
-Memory usage: 37.970318%
-Memory usage: 37.973576%
-Memory usage: 37.96448%
-Memory usage: 37.965584%
-Memory usage: 37.98626%
-Memory usage: 37.99307%
-Memory usage: 38.032703%
-Memory usage: 38.00744%
-Memory usage: 37.988564%
-Memory usage: 37.36302%
-Memory usage: 36.947746%
-Memory usage: 36.95794%
-Memory usage: 36.889053%
-Memory usage: 36.901264%
-Memory usage: 36.91347%
-Memory usage: 36.912952%
-Memory usage: 36.931553%
-Memory usage: 36.903484%
-Memory usage: 36.849483%
-Memory usage: 36.85177%
-Memory usage: 36.74365%
-Memory usage: 36.729717%
-Memory usage: 36.742172%
-Memory usage: 36.7708%
-Memory usage: 36.756104%
-Memory usage: 36.767292%
-Memory usage: 36.78357%
-Memory usage: 36.835743%
-Memory usage: 36.84093%
-Memory usage: 36.90346%
-Memory usage: 36.891693%
-Memory usage: 36.88293%
-Memory usage: 36.85912%
-Memory usage: 36.866135%
-Memory usage: 36.85397%
-Memory usage: 36.82308%
-Memory usage: 36.81442%
-Memory usage: 36.799263%
-Memory usage: 36.768227%
-Memory usage: 36.76773%
-Memory usage: 36.757267%
-Memory usage: 36.76451%
-Memory usage: 36.76424%
-Memory usage: 36.761024%
-Memory usage: 36.75652%
-Memory usage: 36.756268%
-Memory usage: 36.74699%
-Memory usage: 36.741467%
-Memory usage: 36.744%
-Memory usage: 36.74649%
-Memory usage: 36.748672%
-Memory usage: 36.71338%
-Memory usage: 36.71697%
-Memory usage: 36.770554%
-Memory usage: 36.808067%
-Memory usage: 36.79501%
-Memory usage: 36.778606%
-Memory usage: 36.772274%
-Memory usage: 36.775143%
-Memory usage: 36.838524%
-Memory usage: 36.97594%
-Memory usage: 37.175926%
-Memory usage: 37.149414%
-Memory usage: 37.173%
-Memory usage: 37.016277%
-Memory usage: 37.195297%
-Memory usage: 37.367153%
-Memory usage: 37.398815%
-Memory usage: 37.35096%
-Memory usage: 37.361423%
-Memory usage: 37.362442%
-Memory usage: 37.344524%
-Memory usage: 37.353867%
-Memory usage: 37.435394%
-Memory usage: 37.45433%
-Memory usage: 37.532097%
-Memory usage: 37.48688%
-Memory usage: 37.201317%
-Memory usage: 37.226917%
-Memory usage: 37.181095%
-Memory usage: 37.18091%
-Memory usage: 37.170425%
-Memory usage: 37.167686%
-Memory usage: 37.170593%
-Memory usage: 37.167416%
-Memory usage: 37.148003%
-Memory usage: 37.143684%
-Memory usage: 37.169014%
-Memory usage: 37.169262%
-Memory usage: 37.174767%
-Memory usage: 37.056885%
-Memory usage: 37.081486%
-Memory usage: 37.102745%
-Memory usage: 36.99564%
-Memory usage: 37.00135%
-Memory usage: 36.952354%
-Memory usage: 36.94949%
-Memory usage: 36.947144%
-Memory usage: 36.936184%
-Memory usage: 36.932133%
-Memory usage: 36.92896%
-Memory usage: 36.908237%
-Memory usage: 36.895054%
-Memory usage: 36.88675%
-Memory usage: 36.88723%
-Memory usage: 36.917664%
-Memory usage: 36.92817%
-Memory usage: 36.98964%
-Memory usage: 36.92821%
-Memory usage: 36.85754%
-Memory usage: 36.8576%
-Memory usage: 36.88843%
-Memory usage: 36.894848%
-Memory usage: 36.88924%
-Memory usage: 36.89279%
-Memory usage: 36.89279%
-Memory usage: 36.902798%
-Memory usage: 36.9072%
-Memory usage: 36.907158%
-Memory usage: 36.90722%
-Memory usage: 36.87606%
-Memory usage: 36.96672%
-Memory usage: 37.035004%
-Memory usage: 37.01065%
-Memory usage: 36.99807%
-Memory usage: 36.996223%
-Memory usage: 36.986485%
-Memory usage: 36.9373%
-Memory usage: 36.906887%
-Memory usage: 36.905663%
-Memory usage: 36.906452%
-Memory usage: 36.910896%
-Memory usage: 36.910065%
-Memory usage: 36.91152%
-Memory usage: 36.894142%
-Memory usage: 36.89445%
-Memory usage: 36.887043%
-Memory usage: 36.925823%
-Memory usage: 36.913055%
-Memory usage: 36.911705%
-Memory usage: 36.9274%
-Memory usage: 36.94536%
-Memory usage: 36.93938%
-Memory usage: 36.926052%
-Memory usage: 36.923767%
-Memory usage: 36.92028%
-Memory usage: 36.921192%
-Memory usage: 36.91241%
-Memory usage: 36.898895%
-Memory usage: 36.88152%
-Memory usage: 36.887104%
-Memory usage: 36.883305%
-Memory usage: 36.85696%
-Memory usage: 36.855465%
-Memory usage: 36.847286%
-Memory usage: 36.84637%
-Memory usage: 36.824364%
-Memory usage: 36.82312%
-Memory usage: 36.823948%
-Memory usage: 36.7604%
-Memory usage: 36.762665%
-Memory usage: 36.755898%
-Memory usage: 36.774433%
-Memory usage: 36.767834%
-Memory usage: 36.78062%
-Memory usage: 36.77483%
-Memory usage: 36.76692%
-Memory usage: 36.79505%
-Memory usage: 36.81444%
-Memory usage: 36.803688%
-Memory usage: 36.8068%
-Memory usage: 36.806843%
-Memory usage: 36.049843%
-Memory usage: 36.065872%
-Memory usage: 36.067097%
-Memory usage: 36.077477%
-Memory usage: 36.06419%
-Memory usage: 35.986504%
-Memory usage: 35.910164%
-Memory usage: 35.936718%
-Memory usage: 36.023457%
-Memory usage: 35.9488%
-Memory usage: 35.934765%
-Memory usage: 35.93099%
-Memory usage: 35.94525%
-Memory usage: 35.946747%
-Memory usage: 35.9957%
-Memory usage: 36.10903%
-Memory usage: 36.11175%
-Memory usage: 36.11364%
-Memory usage: 36.112167%
-Memory usage: 36.121304%
-Memory usage: 36.124043%
-Memory usage: 36.12124%
-Memory usage: 36.118416%
-Memory usage: 36.131786%
-Memory usage: 36.127445%
-Memory usage: 36.12153%
-Memory usage: 36.10299%
-Memory usage: 36.09668%
-Memory usage: 36.0923%
-Memory usage: 36.094624%
-Memory usage: 36.09558%
-Memory usage: 36.10324%
-Memory usage: 36.098446%
-Memory usage: 36.103718%
-Memory usage: 36.07214%
-Memory usage: 36.069523%
-Memory usage: 36.059643%
-Memory usage: 36.107662%
-Memory usage: 36.96348%
-Memory usage: 36.95165%
-Memory usage: 36.926132%
-Memory usage: 36.915215%
-Memory usage: 36.918827%
-Memory usage: 36.91297%
-Memory usage: 36.913406%
-Memory usage: 36.891838%
-Memory usage: 36.89977%
-Memory usage: 36.905975%
-Memory usage: 36.844856%
-Memory usage: 36.84247%
-Memory usage: 36.859264%
-Memory usage: 36.843964%
-Memory usage: 36.853138%
-Memory usage: 36.72494%
-Memory usage: 36.724693%
-Memory usage: 36.925987%
-Memory usage: 36.921627%
-Memory usage: 36.89989%
-Memory usage: 36.89136%
-Memory usage: 36.88708%
-Memory usage: 37.00974%
-Memory usage: 37.012188%
-Memory usage: 36.98447%
-Memory usage: 36.96701%
-Memory usage: 36.97513%
-Memory usage: 36.96504%
-Memory usage: 36.965477%
-Memory usage: 36.951855%
-Memory usage: 36.952873%
-Memory usage: 36.96396%
-Memory usage: 36.886707%
-Memory usage: 36.870724%
-Memory usage: 36.85864%
-Memory usage: 36.857124%
-Memory usage: 36.856876%
-Memory usage: 36.85555%
-Memory usage: 36.852432%
-Memory usage: 36.847576%
-Memory usage: 36.85999%
-Memory usage: 36.891277%
-Memory usage: 36.88947%
-Memory usage: 36.882973%
-Memory usage: 36.872528%
-Memory usage: 36.875645%
-Memory usage: 36.87137%
-Memory usage: 36.87039%
-Memory usage: 36.851063%
-Memory usage: 36.85719%
-Memory usage: 36.857002%
-Memory usage: 36.844254%
-Memory usage: 36.83626%
-Memory usage: 36.833187%
-Memory usage: 36.821377%
-Memory usage: 36.82399%
-Memory usage: 36.815125%
-Memory usage: 36.79993%
-Memory usage: 36.80402%
-Memory usage: 36.797626%
-Memory usage: 36.794968%
-Memory usage: 36.792477%
-Memory usage: 36.797707%
-Memory usage: 36.75023%
-Memory usage: 36.77649%
-Memory usage: 36.76935%
-Memory usage: 36.773354%
-Memory usage: 36.761295%
-Memory usage: 36.771675%
-Memory usage: 36.772255%
-Memory usage: 36.778008%
-Memory usage: 36.78577%
-Memory usage: 36.786392%
-Memory usage: 36.77983%
-Memory usage: 36.787266%
-Memory usage: 36.787785%
-Memory usage: 36.785107%
-Memory usage: 36.776905%
-Memory usage: 36.775784%
-Memory usage: 36.770054%
-Memory usage: 36.767044%
-Memory usage: 36.764095%
-Memory usage: 36.77483%
-Memory usage: 36.78039%
-Memory usage: 36.77653%
-Memory usage: 36.76933%
-Memory usage: 36.771904%
-Memory usage: 36.787453%
-Memory usage: 36.778816%
-Memory usage: 36.803833%
-Memory usage: 36.809914%
-Memory usage: 36.82619%
-Memory usage: 36.820564%
-Memory usage: 36.831318%
-Memory usage: 36.827854%
-Memory usage: 36.831444%
-Memory usage: 36.81639%
-Memory usage: 36.82671%
-Memory usage: 36.83873%
-Memory usage: 36.85011%
-Memory usage: 36.84035%
-Memory usage: 36.847824%
-Memory usage: 36.841408%
-Memory usage: 36.84089%
-Memory usage: 36.8253%
-Memory usage: 36.822083%
-Memory usage: 36.814194%
-Memory usage: 36.811348%
-Memory usage: 36.80481%
-Memory usage: 36.8034%
-Memory usage: 36.786163%
-Memory usage: 36.777966%
-Memory usage: 36.77761%
-Memory usage: 36.77732%
-Memory usage: 36.77676%
-Memory usage: 36.777695%
-Memory usage: 36.78355%
-Memory usage: 36.784027%
-Memory usage: 36.79123%
-Memory usage: 36.792%
-Memory usage: 36.803333%
-Memory usage: 36.809875%
-Memory usage: 36.819134%
-Memory usage: 36.813526%
-Memory usage: 36.803978%
-Memory usage: 36.8025%
-Memory usage: 36.80182%
-Memory usage: 36.7948%
-Memory usage: 36.806637%
-Memory usage: 36.801197%
-Memory usage: 36.799763%
-Memory usage: 36.805927%
-Memory usage: 36.796066%
-Memory usage: 36.800034%
-Memory usage: 36.805763%
-Memory usage: 36.803436%
-Memory usage: 36.741467%
-Memory usage: 36.74423%
-Memory usage: 36.73617%
-Memory usage: 36.730194%
-Memory usage: 36.73775%
-Memory usage: 36.733185%
-Memory usage: 36.738396%
-Memory usage: 36.73532%
-Memory usage: 36.73605%
-Memory usage: 36.735924%
-Memory usage: 36.731544%
-Memory usage: 36.729427%
-Memory usage: 36.736588%
-Memory usage: 36.732517%
-Memory usage: 36.73092%
-Memory usage: 36.731503%
-Memory usage: 36.73549%
-Memory usage: 36.734097%
-Memory usage: 36.735718%
-Memory usage: 36.735634%
-Memory usage: 36.735943%
-Memory usage: 36.746075%
-Memory usage: 36.741528%
-Memory usage: 36.749977%
-Memory usage: 36.762375%
-Memory usage: 36.764717%
-Memory usage: 36.768105%
-Memory usage: 36.772236%
-Memory usage: 36.794945%
-Memory usage: 36.790813%
-Memory usage: 36.79009%
-Memory usage: 36.792995%
-Memory usage: 36.79756%
-Memory usage: 36.792747%
-Memory usage: 36.793056%
-Memory usage: 36.78735%
-Memory usage: 36.788345%
-Memory usage: 36.78845%
-Memory usage: 36.786892%
-Memory usage: 36.78984%
-Memory usage: 36.791584%
-Memory usage: 36.784214%
-Memory usage: 36.785625%
-Memory usage: 36.800198%
-Memory usage: 36.814068%
-Memory usage: 36.803833%
-Memory usage: 36.810432%
-Memory usage: 36.80512%
-Memory usage: 36.801548%
-Memory usage: 36.80153%
-Memory usage: 36.81058%
-Memory usage: 36.80707%
-Memory usage: 36.805637%
-Memory usage: 36.81195%
-Memory usage: 36.817722%
-Memory usage: 36.805347%
-Memory usage: 36.799908%
-Memory usage: 36.805264%
-Memory usage: 36.806427%
-Memory usage: 36.8063%
-Memory usage: 36.80267%
-Memory usage: 36.79885%
-Memory usage: 36.808235%
-Memory usage: 36.803997%
-Memory usage: 36.798412%
-Memory usage: 36.807632%
-Memory usage: 36.807007%
-Memory usage: 36.81328%
-Memory usage: 36.80647%
-Memory usage: 36.797894%
-Memory usage: 36.80431%
-Memory usage: 36.803314%
-Memory usage: 36.801403%
-Memory usage: 36.810165%
-Memory usage: 36.803646%
-Memory usage: 36.803024%
-Memory usage: 36.8073%
-Memory usage: 36.798786%
-Memory usage: 36.78743%
-Memory usage: 36.79048%
-Memory usage: 36.79428%
-Memory usage: 36.791084%
-Memory usage: 36.79455%
-Memory usage: 36.790234%
-Memory usage: 36.79474%
-Memory usage: 36.116734%
-Memory usage: 36.12037%
-Memory usage: 36.125954%
-Memory usage: 36.126034%
-Memory usage: 36.130043%
-Memory usage: 36.129295%
-Memory usage: 36.13299%
-Memory usage: 36.12066%
-Memory usage: 36.133366%
-Memory usage: 36.13706%
-Memory usage: 36.12894%
-Memory usage: 36.123833%
-Memory usage: 36.125847%
-Memory usage: 36.120037%
-Memory usage: 36.108284%
-Memory usage: 36.114803%
-Memory usage: 36.107%
-Memory usage: 36.107723%
-Memory usage: 36.10835%
-Memory usage: 36.11125%
-Memory usage: 36.116817%
-Memory usage: 36.11991%
-Memory usage: 36.116093%
-Memory usage: 36.116276%
-Memory usage: 36.11339%
-Memory usage: 36.11169%
-Memory usage: 36.112705%
-Memory usage: 36.116505%
-Memory usage: 36.121304%
-Memory usage: 36.119827%
-Memory usage: 36.114803%
-Memory usage: 36.115635%
-Memory usage: 36.11692%
-Memory usage: 36.115177%
-Memory usage: 36.114742%
-Memory usage: 36.117523%
-Memory usage: 36.111294%
-Memory usage: 36.105938%
-Memory usage: 36.10843%
-Memory usage: 36.114532%
-Memory usage: 36.108494%
-Memory usage: 36.111046%
-Memory usage: 36.119453%
-Memory usage: 36.14588%
-Memory usage: 36.152008%
-Memory usage: 36.13687%
-Memory usage: 36.13949%
-Memory usage: 36.140213%
-Memory usage: 36.151382%
-Memory usage: 36.143578%
-Memory usage: 36.14555%
-Memory usage: 36.14906%
-Memory usage: 36.142353%
-Memory usage: 36.142372%
-Memory usage: 36.157738%
-Memory usage: 36.14441%
-Memory usage: 36.137745%
-Memory usage: 36.139572%
-Memory usage: 36.13822%
-Memory usage: 36.14412%
-Memory usage: 36.138657%
-Memory usage: 36.13135%
-Memory usage: 36.136974%
-Memory usage: 36.141212%
-Memory usage: 36.131992%
-Memory usage: 36.12315%
-Memory usage: 36.127426%
-Memory usage: 36.133156%
-Memory usage: 36.137245%
-Memory usage: 36.159233%
-Memory usage: 36.156593%
-Memory usage: 36.166725%
-Memory usage: 36.15863%
-Memory usage: 36.159645%
-Memory usage: 36.15919%
-Memory usage: 36.149742%
-Memory usage: 36.155994%
-Memory usage: 36.156822%
-Memory usage: 36.15859%
-Memory usage: 36.165833%
-Memory usage: 36.169735%
-Memory usage: 36.159794%
-Memory usage: 36.161182%
-Memory usage: 36.165337%
-Memory usage: 36.159046%
-Memory usage: 36.158257%
-Memory usage: 36.16305%
-Memory usage: 36.13465%
-Memory usage: 36.138367%
-Memory usage: 36.144306%
-Memory usage: 36.138927%
-Memory usage: 36.143932%
-Memory usage: 36.14684%
-Memory usage: 36.145405%
-Memory usage: 36.14692%
-Memory usage: 36.146484%
-Memory usage: 36.143806%
-Memory usage: 36.15344%
-Memory usage: 36.149433%
-Memory usage: 36.15626%
-Memory usage: 35.825108%
-Memory usage: 35.822556%
-Memory usage: 35.824757%
-Memory usage: 35.826042%
-Memory usage: 35.827953%
-Memory usage: 35.817905%
-Memory usage: 35.821434%
-Memory usage: 35.826996%
-Memory usage: 35.824383%
-Memory usage: 35.81915%
-Memory usage: 35.82241%
-Memory usage: 35.828117%
-Memory usage: 35.829655%
-Memory usage: 35.829155%
-Memory usage: 35.829197%
-Memory usage: 35.826313%
-Memory usage: 35.82544%
-Memory usage: 35.825836%
-Memory usage: 35.825047%
-Memory usage: 35.827267%
-Memory usage: 35.827682%
-Memory usage: 35.829594%
-Memory usage: 35.8282%
-Memory usage: 35.82463%
-Memory usage: 35.83063%
-Memory usage: 35.824383%
-Memory usage: 35.82567%
-Memory usage: 35.830173%
-Memory usage: 35.828533%
-Memory usage: 35.84101%
-Memory usage: 35.840263%
-Memory usage: 35.832375%
-Memory usage: 35.837875%
-Memory usage: 35.842194%
-Memory usage: 35.83887%
-Memory usage: 35.844227%
-Memory usage: 35.840885%
-Memory usage: 35.86069%
-Memory usage: 35.866154%
-Memory usage: 35.868084%
-Memory usage: 35.869953%
-Memory usage: 35.85874%
-Memory usage: 35.86989%
-Memory usage: 35.88955%
-Memory usage: 35.88637%
-Memory usage: 35.90375%
-Memory usage: 35.89067%
-Memory usage: 35.886105%
-Memory usage: 35.885708%
-Memory usage: 35.885067%
-Memory usage: 35.890774%
-Memory usage: 35.897564%
-Memory usage: 35.896297%
-Memory usage: 35.897438%
-Memory usage: 35.89889%
-Memory usage: 35.8981%
-Memory usage: 35.890835%
-Memory usage: 35.890713%
-Memory usage: 35.904892%
-Memory usage: 35.919132%
-Memory usage: 35.93263%
-Memory usage: 35.920067%
-Memory usage: 35.918407%
-Memory usage: 35.918903%
-Memory usage: 35.915024%
-Memory usage: 35.915314%
-Memory usage: 35.92337%
-Memory usage: 35.912968%
-Memory usage: 35.89669%
-Memory usage: 35.912388%
-Memory usage: 35.91363%
-Memory usage: 35.908504%
-Memory usage: 35.90956%
-Memory usage: 35.902733%
-Memory usage: 35.903046%
-Memory usage: 35.89534%
-Memory usage: 35.903084%
-Memory usage: 35.903854%
-Memory usage: 35.899807%
-Memory usage: 35.90319%
-Memory usage: 35.90956%
-Memory usage: 35.904766%
-Memory usage: 35.901405%
-Memory usage: 35.900845%
-Memory usage: 35.900284%
-Memory usage: 35.89393%
-Memory usage: 35.89968%
-Memory usage: 35.904163%
-Memory usage: 35.89636%
-Memory usage: 35.90151%
-Memory usage: 35.894676%
-Memory usage: 35.883736%
-Memory usage: 35.882927%
-Memory usage: 35.878483%
-Memory usage: 35.87242%
-Memory usage: 35.871136%
-Memory usage: 35.87379%
-Memory usage: 35.87896%
-Memory usage: 35.883736%
-Memory usage: 35.880707%
-Memory usage: 35.882034%
-Memory usage: 35.876842%
-Memory usage: 35.872982%
-Memory usage: 35.878838%
-Memory usage: 35.87622%
-Memory usage: 35.87701%
-Memory usage: 35.871655%
-Memory usage: 35.87832%
-Memory usage: 35.88172%
-Memory usage: 35.883945%
-Memory usage: 35.89198%
-Memory usage: 35.88598%
-Memory usage: 35.88359%
-Memory usage: 35.885834%
-Memory usage: 35.879936%
-Memory usage: 35.876015%
-Memory usage: 35.872444%
-Memory usage: 35.87871%
-Memory usage: 35.87595%
-Memory usage: 35.885937%
-Memory usage: 35.89231%
-Memory usage: 35.869682%
-Memory usage: 35.880478%
-Memory usage: 35.89447%
-Memory usage: 35.89067%
-Memory usage: 35.895863%
-Memory usage: 35.896152%
-Memory usage: 35.899765%
-Memory usage: 35.89715%
-Memory usage: 35.895382%
-Memory usage: 35.90379%
-Memory usage: 35.89802%
-Memory usage: 35.897335%
-Memory usage: 35.89833%
-Memory usage: 35.90184%
-Memory usage: 35.89667%
-Memory usage: 35.9002%
-Memory usage: 35.898%
-Memory usage: 35.890236%
-Memory usage: 35.894783%
-Memory usage: 35.87969%
-Memory usage: 35.88031%
-Memory usage: 35.882492%
-Memory usage: 35.91035%
-Memory usage: 35.909958%
-Memory usage: 35.908337%
-Memory usage: 35.90705%
-Memory usage: 35.90946%
-Memory usage: 35.911182%
-Memory usage: 35.91546%
-Memory usage: 35.923183%
-Memory usage: 35.91789%
-Memory usage: 35.91303%
-Memory usage: 35.914295%
-Memory usage: 35.911743%
-Memory usage: 35.910435%
-Memory usage: 35.90211%
-Memory usage: 35.898228%
-Memory usage: 35.901943%
-Memory usage: 35.89833%
-Memory usage: 35.899826%
-Memory usage: 35.904163%
-Memory usage: 35.899536%
-Memory usage: 35.90394%
-Memory usage: 35.896027%
-Memory usage: 35.902504%
-Memory usage: 35.900448%
-Memory usage: 35.90344%
-Memory usage: 35.907654%
-Memory usage: 35.916122%
-Memory usage: 35.92391%
-Memory usage: 35.920856%
-Memory usage: 35.924488%
-Memory usage: 35.92532%
-Memory usage: 35.920357%
-Memory usage: 35.91793%
-Memory usage: 35.921875%
-Memory usage: 35.929016%
-Memory usage: 35.92769%
-Memory usage: 35.932568%
-Memory usage: 35.925236%
-Memory usage: 35.937695%
-Memory usage: 35.81512%
-Memory usage: 35.811283%
-Memory usage: 35.807068%
-Memory usage: 35.814354%
-Memory usage: 35.812443%
-Memory usage: 35.822243%
-Memory usage: 35.81778%
-Memory usage: 35.83256%
-Memory usage: 36.041603%
-Memory usage: 36.139904%
-Memory usage: 36.316765%
-Memory usage: 35.876244%
-Memory usage: 35.86362%
-Memory usage: 35.867542%
-Memory usage: 35.861874%
-Memory usage: 35.85899%
-Memory usage: 35.863163%
-Memory usage: 35.862602%
-Memory usage: 35.8702%
-Memory usage: 35.872776%
-Memory usage: 35.867085%
-Memory usage: 35.862%
-Memory usage: 35.856873%
-Memory usage: 35.86283%
-Memory usage: 35.853943%
-Memory usage: 35.862144%
-Memory usage: 35.860775%
-Memory usage: 35.86034%
-Memory usage: 35.86387%
-Memory usage: 35.858013%
-Memory usage: 35.85525%
-Memory usage: 35.86362%
-Memory usage: 35.85536%
-Memory usage: 35.857555%
-Memory usage: 35.856934%
-Memory usage: 35.85826%
-Memory usage: 35.866486%
-Memory usage: 35.857517%
-Memory usage: 35.860672%
-Memory usage: 35.868954%
-Memory usage: 35.860588%
-Memory usage: 35.843647%
-Memory usage: 35.84259%
-Memory usage: 35.850185%
-Memory usage: 35.83939%
-Memory usage: 35.83547%
-Memory usage: 35.842567%
-Memory usage: 35.82978%
-Memory usage: 35.848026%
-Memory usage: 35.843708%
-Memory usage: 35.880104%
-Memory usage: 35.887783%
-Memory usage: 35.88658%
-Memory usage: 35.889156%
-Memory usage: 35.891502%
-Memory usage: 35.890984%
-Memory usage: 35.897045%
-Memory usage: 35.91353%
-Memory usage: 35.90024%
-Memory usage: 35.90404%
-Memory usage: 35.90055%
-Memory usage: 35.92769%
-Memory usage: 35.913673%
-Memory usage: 35.92866%
-Memory usage: 35.92389%
-Memory usage: 35.93246%
-Memory usage: 35.935886%
-Memory usage: 35.92968%
-Memory usage: 35.926754%
-Memory usage: 35.934456%
-Memory usage: 35.928993%
-Memory usage: 35.926006%
-Memory usage: 35.938522%
-Memory usage: 35.925404%
-Memory usage: 35.93518%
-Memory usage: 35.9303%
-Memory usage: 35.94824%
-Memory usage: 35.960155%
-Memory usage: 35.963333%
-Memory usage: 35.957977%
-Memory usage: 35.958435%
-Memory usage: 35.96078%
-Memory usage: 35.96319%
-Memory usage: 35.95858%
-Memory usage: 35.958477%
-Memory usage: 35.971638%
-Memory usage: 35.974937%
-Memory usage: 35.976227%
-Memory usage: 35.978447%
-Memory usage: 35.975914%
-Memory usage: 35.973442%
-Memory usage: 35.96217%
-Memory usage: 35.96136%
-Memory usage: 35.963165%
-Memory usage: 35.956482%
-Memory usage: 35.961716%
-Memory usage: 35.949028%
-Memory usage: 35.947453%
-Memory usage: 35.946144%
-Memory usage: 35.950253%
-Memory usage: 35.940952%
-Memory usage: 35.94035%
-Memory usage: 35.93892%
-Memory usage: 35.942177%
-Memory usage: 35.940704%
-Memory usage: 35.94689%
-Memory usage: 35.943714%
-Memory usage: 35.927395%
-Memory usage: 35.93024%
-Memory usage: 35.91683%
-Memory usage: 35.920567%
-Memory usage: 35.92401%
-Memory usage: 35.918137%
-Memory usage: 35.921623%
-Memory usage: 35.90946%
-Memory usage: 35.910664%
-Memory usage: 35.908257%
-Memory usage: 35.913963%
-Memory usage: 35.91868%
-Memory usage: 35.915398%
-Memory usage: 35.918407%
-Memory usage: 35.91936%
-Memory usage: 35.924114%
-Memory usage: 35.914318%
-Memory usage: 35.91907%
-Memory usage: 35.923306%
-Memory usage: 35.939625%
-Memory usage: 35.940704%
-Memory usage: 35.945583%
-Memory usage: 35.94249%
-Memory usage: 35.936924%
-Memory usage: 35.945335%
-Memory usage: 35.937363%
-Memory usage: 35.94068%
-Memory usage: 35.946705%
-Memory usage: 35.937485%
-Memory usage: 35.93539%
-Memory usage: 35.94544%
-Memory usage: 35.944546%
-Memory usage: 35.943798%
-Memory usage: 35.939644%
-Memory usage: 35.945686%
-Memory usage: 35.938835%
-Memory usage: 35.942677%
-Memory usage: 35.939564%
-Memory usage: 35.932026%
-Memory usage: 35.93375%
-Memory usage: 35.941868%
-Memory usage: 35.93778%
-Memory usage: 35.92401%
-Memory usage: 35.923473%
-Memory usage: 35.922142%
-Memory usage: 35.920982%
-Memory usage: 35.927395%
-Memory usage: 35.935265%
-Memory usage: 35.942448%
-Memory usage: 35.936176%
-Memory usage: 35.93427%
-Memory usage: 35.93053%
-Memory usage: 35.937218%
-Memory usage: 35.933624%
-Memory usage: 35.962067%
-Memory usage: 35.97259%
-Memory usage: 35.965763%
-Memory usage: 35.97423%
-Memory usage: 35.97957%
-Memory usage: 35.98229%
-Memory usage: 35.977554%
-Memory usage: 35.974834%
-Memory usage: 35.976994%
-Memory usage: 35.973797%
-Memory usage: 35.972965%
-Memory usage: 35.97878%
-Memory usage: 35.975853%
-Memory usage: 35.966404%
-Memory usage: 35.963043%
-Memory usage: 35.96402%
-Memory usage: 35.964516%
-Memory usage: 35.968296%
-Memory usage: 35.96483%
-Memory usage: 35.96437%
-Memory usage: 35.96138%
-Memory usage: 35.955673%
-Memory usage: 35.958973%
-Memory usage: 36.14171%
-Memory usage: 36.24848%
-Memory usage: 36.325672%
-Memory usage: 36.43728%
-Memory usage: 35.993977%
-Memory usage: 35.993416%
-Memory usage: 35.992023%
-Memory usage: 35.99051%
-Memory usage: 35.994038%
-Memory usage: 35.98727%
-Memory usage: 35.98484%
-Memory usage: 35.986855%
-Memory usage: 35.98461%
-Memory usage: 35.983013%
-Memory usage: 35.985546%
-Memory usage: 35.978134%
-Memory usage: 35.981%
-Memory usage: 35.982952%
-Memory usage: 35.973236%
-Memory usage: 35.97091%
-Memory usage: 35.971825%
-Memory usage: 35.965866%
-Memory usage: 35.968792%
-Memory usage: 35.96952%
-Memory usage: 35.963314%
-Memory usage: 35.968357%
-Memory usage: 35.97689%
-Memory usage: 35.973442%
-Memory usage: 35.979942%
-Memory usage: 35.983803%
-Memory usage: 35.97882%
-Memory usage: 35.98617%
-Memory usage: 35.985985%
-Memory usage: 35.988102%
-Memory usage: 35.99055%
-Memory usage: 35.99771%
-Memory usage: 35.991215%
-Memory usage: 35.99543%
-Memory usage: 35.986065%
-Memory usage: 35.981457%
-Memory usage: 35.96755%
-Memory usage: 35.97151%
-Memory usage: 35.973858%
-Memory usage: 35.97141%
-Memory usage: 35.97747%
-Memory usage: 35.972904%
-Memory usage: 35.975582%
-Memory usage: 35.96601%
-Memory usage: 35.968338%
-Memory usage: 35.965492%
-Memory usage: 35.969166%
-Memory usage: 35.968296%
-Memory usage: 35.97037%
-Memory usage: 35.967464%
-Memory usage: 35.964725%
-Memory usage: 35.970413%
-Memory usage: 35.968525%
-Memory usage: 35.976246%
-Memory usage: 35.96873%
-Memory usage: 35.969%
-Memory usage: 35.983574%
-Memory usage: 35.86335%
-Memory usage: 35.855316%
-Memory usage: 35.848362%
-Memory usage: 35.854652%
-Memory usage: 35.855522%
-Memory usage: 35.86175%
-Memory usage: 35.867336%
-Memory usage: 35.85951%
-Memory usage: 35.859364%
-Memory usage: 35.862103%
-Memory usage: 35.8713%
-Memory usage: 35.87464%
-Memory usage: 35.88083%
-Memory usage: 35.878483%
-Memory usage: 35.888096%
-Memory usage: 35.887703%
-Memory usage: 35.912884%
-Memory usage: 35.902546%
-Memory usage: 35.933727%
-Memory usage: 35.917637%
-Memory usage: 35.917286%
-Memory usage: 36.310246%
-Memory usage: 36.341946%
-Memory usage: 36.33925%
-Memory usage: 36.34361%
-Memory usage: 35.926647%
-Memory usage: 35.922955%
-Memory usage: 35.91654%
-Memory usage: 35.929306%
-Memory usage: 35.91897%
-Memory usage: 35.914318%
-Memory usage: 35.910603%
-Memory usage: 35.911285%
-Memory usage: 35.910248%
-Memory usage: 35.904537%
-Memory usage: 35.901653%
-Memory usage: 35.906364%
-Memory usage: 35.91187%
-Memory usage: 35.90759%
-Memory usage: 35.906883%
-Memory usage: 35.91353%
-Memory usage: 35.92289%
-Memory usage: 35.915188%
-Memory usage: 35.919132%
-Memory usage: 35.923702%
-Memory usage: 35.924553%
-Memory usage: 35.9155%
-Memory usage: 35.915936%
-Memory usage: 35.909603%
-Memory usage: 35.911804%
-Memory usage: 35.918842%
-Memory usage: 35.916744%
-Memory usage: 35.923306%
-Memory usage: 35.921146%
-Memory usage: 35.91521%
-Memory usage: 36.053436%
-Memory usage: 35.92094%
-Memory usage: 35.91334%
-Memory usage: 35.9111%
-Memory usage: 35.9188%
-Memory usage: 35.91874%
-Memory usage: 35.91932%
-Memory usage: 35.920025%
-Memory usage: 35.919903%
-Memory usage: 35.91023%
-Memory usage: 35.90819%
-Memory usage: 35.90483%
-Memory usage: 35.902378%
-Memory usage: 35.907154%
-Memory usage: 35.89829%
-Memory usage: 35.89667%
-Memory usage: 35.899765%
-Memory usage: 35.898434%
-Memory usage: 35.90651%
-Memory usage: 35.90786%
-Memory usage: 35.90699%
-Memory usage: 35.910103%
-Memory usage: 35.91328%
-Memory usage: 35.902298%
-Memory usage: 35.904747%
-Memory usage: 35.906364%
-Memory usage: 35.909126%
-Memory usage: 35.912014%
-Memory usage: 35.919613%
-Memory usage: 35.915665%
-Memory usage: 35.914047%
-Memory usage: 35.916683%
-Memory usage: 35.906364%
-Memory usage: 35.912613%
-Memory usage: 35.915043%
-Memory usage: 35.908337%
-Memory usage: 35.90458%
-Memory usage: 35.91081%
-Memory usage: 35.911182%
-Memory usage: 35.909416%
-Memory usage: 35.914856%
-Memory usage: 35.91579%
-Memory usage: 35.904995%
-Memory usage: 35.916%
-Memory usage: 35.915813%
-Memory usage: 35.915295%
-Memory usage: 35.91523%
-Memory usage: 35.919155%
-Memory usage: 35.912426%
-Memory usage: 35.868893%
-Memory usage: 35.87153%
-Memory usage: 35.86698%
-Memory usage: 35.86738%
-Memory usage: 35.86744%
-Memory usage: 35.87203%
-Memory usage: 35.887493%
-Memory usage: 35.880226%
-Memory usage: 35.880642%
-Memory usage: 35.882053%
-Memory usage: 35.87628%
-Memory usage: 35.87755%
-Memory usage: 35.912468%
-Memory usage: 35.904663%
-Memory usage: 35.90319%
-Memory usage: 35.902588%
-Memory usage: 35.89991%
-Memory usage: 35.90325%
-Memory usage: 35.90219%
-Memory usage: 35.907986%
-Memory usage: 35.895798%
-Memory usage: 35.89169%
-Memory usage: 35.8997%
-Memory usage: 35.896755%
-Memory usage: 35.901093%
-Memory usage: 35.903313%
-Memory usage: 35.88716%
-Memory usage: 35.88903%
-Memory usage: 35.897835%
-Memory usage: 35.89366%
-Memory usage: 35.892727%
-Memory usage: 35.894344%
-Memory usage: 35.890236%
-Memory usage: 35.886166%
-Memory usage: 35.889942%
-Memory usage: 35.885666%
-Memory usage: 35.889862%
-Memory usage: 35.9062%
-Memory usage: 35.91631%
-Memory usage: 35.917473%
-Memory usage: 35.924282%
-Memory usage: 35.92204%
-Memory usage: 35.922226%
-Memory usage: 35.924904%
-Memory usage: 35.923203%
-Memory usage: 35.919548%
-Memory usage: 35.91131%
-Memory usage: 35.913902%
-Memory usage: 35.91108%
-Memory usage: 35.915043%
-Memory usage: 35.90483%
-Memory usage: 35.905724%
-Memory usage: 35.908504%
-Memory usage: 35.901653%
-Memory usage: 35.893867%
-Memory usage: 35.893517%
-Memory usage: 35.896152%
-Memory usage: 35.900906%
-Memory usage: 35.899162%
-Memory usage: 35.91085%
-Memory usage: 35.92401%
-Memory usage: 35.909855%
-Memory usage: 35.92202%
-Memory usage: 35.92769%
-Memory usage: 35.91876%
-Memory usage: 35.923016%
-Memory usage: 35.926876%
-Memory usage: 35.9226%
-Memory usage: 35.926025%
-Memory usage: 35.927353%
-Memory usage: 35.934643%
-Memory usage: 35.928143%
-Memory usage: 35.925133%
-Memory usage: 35.925236%
-Memory usage: 35.9253%
-Memory usage: 35.926647%
-Memory usage: 35.923264%
-Memory usage: 35.922516%
-Memory usage: 35.929993%
-Memory usage: 35.924656%
-Memory usage: 35.930614%
-Memory usage: 35.93562%
-Memory usage: 35.930717%
-Memory usage: 35.928288%
-Memory usage: 35.92617%
-Memory usage: 35.929474%
-Memory usage: 35.927315%
-Memory usage: 35.92339%
-Memory usage: 35.932358%
-Memory usage: 35.917347%
-Memory usage: 35.920628%
-Memory usage: 35.92856%
-Memory usage: 35.921%
-Memory usage: 35.922104%
-Memory usage: 35.918427%
-Memory usage: 35.927044%
-Memory usage: 35.917244%
-Memory usage: 35.917534%
-Memory usage: 35.92586%
-Memory usage: 35.926773%
-Memory usage: 35.922955%
-Memory usage: 35.93564%
-Memory usage: 35.92856%
-Memory usage: 35.93182%
-Memory usage: 35.931423%
-Memory usage: 35.938087%
-Memory usage: 35.942158%
-Memory usage: 35.83256%
-Memory usage: 35.844624%
-Memory usage: 35.842216%
-Memory usage: 35.843605%
-Memory usage: 35.781242%
-Memory usage: 35.80007%
-Memory usage: 35.84923%
-Memory usage: 35.83738%
-Memory usage: 35.86283%
-Memory usage: 35.87051%
-Memory usage: 35.882988%
-Memory usage: 35.879646%
-Memory usage: 35.88025%
-Memory usage: 35.887558%
-Memory usage: 35.880497%
-Memory usage: 35.8806%
-Memory usage: 35.883507%
-Memory usage: 35.88463%
-Memory usage: 35.879917%
-Memory usage: 35.877903%
-Memory usage: 35.869267%
-Memory usage: 35.877903%
-Memory usage: 35.893555%
-Memory usage: 35.890587%
-Memory usage: 35.886852%
-Memory usage: 35.89424%
-Memory usage: 35.884068%
-Memory usage: 35.883385%
-Memory usage: 35.882843%
-Memory usage: 35.879086%
-Memory usage: 35.89449%
-Memory usage: 35.901756%
-Memory usage: 35.934017%
-Memory usage: 35.939293%
-Memory usage: 35.946%
-Memory usage: 35.935307%
-Memory usage: 35.92582%
-Memory usage: 35.919464%
-Memory usage: 35.915024%
-Memory usage: 35.917908%
-Memory usage: 35.913174%
-Memory usage: 35.927315 %
-Memory usage: 35.899494 %
-Memory usage: 35.902004 %
-Memory usage: 35.89231 %
-Memory usage: 35.891045 %
-Memory usage: 35.88492 %
-Memory usage: 35.889755 %
-Memory usage: 35.88874 %
-Memory usage: 35.88928 %
-Memory usage: 35.89123 %
-Memory usage: 35.89968 %
-Memory usage: 35.89559 %
-Memory usage: 35.89117 %
-Memory usage: 35.89885 %
-Memory usage: 35.901737 %
-Memory usage: 35.897312 %
-Memory usage: 35.89746 %
-Memory usage: 25.484468 %
-Memory usage: 25.457914 %
-Memory usage: 25.48098 %
-Memory usage: 25.472696 %
-Memory usage: 25.590618 %
-Memory usage: 25.662989 %
+[2023-03-28T19:50:23.8598075Z] memoryUsage: 31.5606
+[2023-03-28T19:50:23.8598524Z] memoryUsage: 31.5606
+[2023-03-28T19:50:23.8619446Z] memoryUsage: 31.5606
+[2023-03-28T19:50:23.8717221Z] memoryUsage: 31.5606
+[2023-03-28T19:50:23.8816420Z] memoryUsage: 31.5606
+[2023-03-28T19:50:23.8866095Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1649088Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1659061Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1678480Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1708035Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1768192Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1788001Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1818136Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1869664Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1898258Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.1928112Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.2020191Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.2028154Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.2038022Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.2108076Z] memoryUsage: 31.5606
+[2023-03-28T19:50:24.7783911Z] memoryUsage: 31.538324
+[2023-03-28T19:50:25.7801583Z] memoryUsage: 31.544075
+[2023-03-28T19:50:26.7800822Z] memoryUsage: 31.544075
+[2023-03-28T19:50:27.7410278Z] memoryUsage: 31.53876
+[2023-03-28T19:50:28.7397130Z] memoryUsage: 31.545197
+[2023-03-28T19:50:29.7398964Z] memoryUsage: 31.526033
+[2023-03-28T19:50:30.7403818Z] memoryUsage: 31.506767
+[2023-03-28T19:50:31.7403580Z] memoryUsage: 31.495203
+[2023-03-28T19:50:32.7399173Z] memoryUsage: 31.487772
+[2023-03-28T19:50:33.7395447Z] memoryUsage: 31.496159
+[2023-03-28T19:50:34.7395034Z] memoryUsage: 31.49481
+[2023-03-28T19:50:35.7416533Z] memoryUsage: 31.489017
+[2023-03-28T19:50:36.7407188Z] memoryUsage: 31.489578
+[2023-03-28T19:50:37.7390763Z] memoryUsage: 31.48798
+[2023-03-28T19:50:38.7395538Z] memoryUsage: 31.487543
+[2023-03-28T19:50:39.7399384Z] memoryUsage: 31.490242
+[2023-03-28T19:50:40.7393870Z] memoryUsage: 31.496325
+[2023-03-28T19:50:41.7391436Z] memoryUsage: 31.495848
+[2023-03-28T19:50:42.7404889Z] memoryUsage: 31.48912
+[2023-03-28T19:50:43.7440478Z] memoryUsage: 31.48912
+[2023-03-28T19:50:44.7389945Z] memoryUsage: 31.47982
+[2023-03-28T19:50:45.7396046Z] memoryUsage: 31.478907
+[2023-03-28T19:50:46.7397277Z] memoryUsage: 31.479633
+[2023-03-28T19:50:47.7397398Z] memoryUsage: 31.47764
+[2023-03-28T19:50:48.7401008Z] memoryUsage: 31.471226
+[2023-03-28T19:50:49.7390037Z] memoryUsage: 31.469896
+[2023-03-28T19:50:50.7393315Z] memoryUsage: 31.471474
+[2023-03-28T19:50:51.7391537Z] memoryUsage: 31.477432
+[2023-03-28T19:50:52.7394672Z] memoryUsage: 31.481377
+[2023-03-28T19:50:53.7398578Z] memoryUsage: 31.484076
+[2023-03-28T19:50:54.7395514Z] memoryUsage: 31.476145
+[2023-03-28T19:50:55.7402225Z] memoryUsage: 31.476
+[2023-03-28T19:50:56.7397311Z] memoryUsage: 31.47735
+[2023-03-28T19:50:57.7390910Z] memoryUsage: 31.462194
+[2023-03-28T19:50:58.7391511Z] memoryUsage: 31.460657
+[2023-03-28T19:52:23.6239629Z] memoryUsage: 32.035877 %
+[2023-03-28T19:52:23.6669598Z] memoryUsage: 32.035877 %
+[2023-03-28T19:52:24.3666175Z] memoryUsage: 32.03384 %
+[2023-03-28T19:52:25.3622267Z] memoryUsage: 32.03353 %
+[2023-03-28T19:52:26.3694571Z] memoryUsage: 32.03025 %
+[2023-03-28T19:52:27.3605674Z] memoryUsage: 32.01061 %
+[2023-03-28T19:52:28.3611074Z] memoryUsage: 31.99857 %
+[2023-03-28T19:52:29.3620250Z] memoryUsage: 31.994043 %
+[2023-03-28T19:52:30.3594209Z] memoryUsage: 31.984327 %
+[2023-03-28T19:52:31.3594222Z] memoryUsage: 31.966412 %
+[2023-03-28T19:52:32.3594773Z] memoryUsage: 31.966328 %
+[2023-03-28T19:52:33.3602910Z] memoryUsage: 31.970293 %
+[2023-03-28T19:52:34.3596262Z] memoryUsage: 31.963795 %
+[2023-03-28T19:52:35.3611240Z] memoryUsage: 31.96286 %
+[2023-03-28T19:52:36.3599028Z] memoryUsage: 31.964771 %
+[2023-03-28T19:52:37.3597271Z] memoryUsage: 31.967075 %
+[2023-03-28T19:52:38.3609209Z] memoryUsage: 31.966286 %
+[2023-03-28T19:52:39.3606136Z] memoryUsage: 31.953892 %
+[2023-03-28T19:52:40.3607412Z] memoryUsage: 31.950363 %
+[2023-03-28T19:52:41.3602159Z] memoryUsage: 31.948078 %
+[2023-03-28T19:52:42.3621510Z] memoryUsage: 31.938757 %
+[2023-03-28T19:52:43.3607505Z] memoryUsage: 31.940002 %
+[2023-03-28T19:52:44.3605142Z] memoryUsage: 31.938301 %
+[2023-03-28T19:52:45.3601147Z] memoryUsage: 31.933691 %
+[2023-03-28T19:52:46.3616908Z] memoryUsage: 31.932716 %
+[2023-03-28T19:52:47.3598667Z] memoryUsage: 31.930473 %
+[2023-03-28T19:52:48.3600589Z] memoryUsage: 31.895348 %
+[2023-03-28T19:52:49.3594431Z] memoryUsage: 31.86595 %
+[2023-03-28T19:52:50.3595280Z] memoryUsage: 31.855133 %
+[2023-03-28T19:52:51.3601189Z] memoryUsage: 31.857023 %
+[2023-03-28T19:52:52.3598255Z] memoryUsage: 31.860094 %
+[2023-03-28T19:52:53.3592749Z] memoryUsage: 31.859285 %
+[2023-03-28T19:52:54.3615125Z] memoryUsage: 31.85719 %
+[2023-03-28T19:52:55.3646576Z] memoryUsage: 31.859367 %
+[2023-03-28T19:52:56.3607897Z] memoryUsage: 31.859367 %
+[2023-03-28T19:52:57.3621262Z] memoryUsage: 31.862877 %
+[2023-03-28T19:52:58.3600303Z] memoryUsage: 31.861382 %
+[2023-03-28T19:52:59.3594383Z] memoryUsage: 31.855404 %
+[2023-03-28T19:53:00.3612704Z] memoryUsage: 31.852766 %
+[2023-03-28T19:53:01.3603867Z] memoryUsage: 31.852829 %
+[2023-03-28T19:53:02.3597405Z] memoryUsage: 31.851957 %
+[2023-03-28T19:53:03.3600259Z] memoryUsage: 31.857416 %
+[2023-03-28T19:53:04.3601955Z] memoryUsage: 31.85476 %
+[2023-03-28T19:53:05.3608000Z] memoryUsage: 31.853348 %
+[2023-03-28T19:53:06.3634197Z] memoryUsage: 31.858704 %
+[2023-03-28T19:53:07.3605190Z] memoryUsage: 31.859348 %
+[2023-03-28T19:53:08.3635159Z] memoryUsage: 31.859306 %
+[2023-03-28T19:53:09.3597649Z] memoryUsage: 31.86541 %
+[2023-03-28T19:53:10.3599122Z] memoryUsage: 31.861423 %
+[2023-03-28T19:53:11.3610564Z] memoryUsage: 31.859722 %
+[2023-03-28T19:53:12.3588396Z] memoryUsage: 31.85665 %
+[2023-03-28T19:53:13.3619955Z] memoryUsage: 31.856068 %
+[2023-03-28T19:53:14.3599731Z] memoryUsage: 31.859077 %
+[2023-03-28T19:53:15.3615753Z] memoryUsage: 31.864662 %
+[2023-03-28T19:53:16.3601400Z] memoryUsage: 31.859783 %
+[2023-03-28T19:53:17.3609362Z] memoryUsage: 31.856752 %
+[2023-03-28T19:53:18.3594370Z] memoryUsage: 31.857708 %
+[2023-03-28T19:53:19.3598170Z] memoryUsage: 31.857563 %
+[2023-03-28T19:53:20.3607964Z] memoryUsage: 31.842136 %
+[2023-03-28T19:53:21.3597846Z] memoryUsage: 31.847721 %
+[2023-03-28T19:53:22.3607324Z] memoryUsage: 31.842842 %
+[2023-03-28T19:53:23.3591778Z] memoryUsage: 31.842842 %
+[2023-03-28T19:53:24.3594985Z] memoryUsage: 31.84384 %
+[2023-03-28T19:53:25.3597879Z] memoryUsage: 31.843466 %
+[2023-03-28T19:53:26.3594375Z] memoryUsage: 31.856794 %
+[2023-03-28T19:53:27.3599480Z] memoryUsage: 31.854988 %
+[2023-03-28T19:53:28.3594249Z] memoryUsage: 31.864246 %
+[2023-03-28T19:53:29.3588598Z] memoryUsage: 31.863562 %
+[2023-03-28T19:53:30.3590728Z] memoryUsage: 31.862066 %
+[2023-03-28T19:53:31.3642747Z] memoryUsage: 31.854656 %
+[2023-03-28T19:53:32.3656999Z] memoryUsage: 31.858248 %
+[2023-03-28T19:53:33.3591694Z] memoryUsage: 31.856897 %
+[2023-03-28T19:53:34.3596755Z] memoryUsage: 31.852434 %
+[2023-03-28T19:53:35.3606738Z] memoryUsage: 31.85073 %
+[2023-03-28T19:53:36.3612614Z] memoryUsage: 31.851252 %
+[2023-03-28T19:53:37.3608254Z] memoryUsage: 31.856876 %
+[2023-03-28T19:53:38.3595143Z] memoryUsage: 31.847805 %
+[2023-03-28T19:53:39.3597758Z] memoryUsage: 31.845999 %
+[2023-03-28T19:53:40.3592622Z] memoryUsage: 31.839272 %
+[2023-03-28T19:53:41.3608249Z] memoryUsage: 31.839272 %
+[2023-03-28T19:53:42.3591026Z] memoryUsage: 31.840975 %
+[2023-03-28T19:53:43.3605970Z] memoryUsage: 31.842262 %
+[2023-03-28T19:53:44.3597357Z] memoryUsage: 31.84195 %
+[2023-03-28T19:53:45.3599624Z] memoryUsage: 31.839043 %
+[2023-03-28T19:53:46.3591220Z] memoryUsage: 31.83871 %
+[2023-03-28T19:53:47.3595154Z] memoryUsage: 31.843403 %
+[2023-03-28T19:53:48.3596408Z] memoryUsage: 31.841078 %
+[2023-03-28T19:53:49.3597952Z] memoryUsage: 31.844213 %
+[2023-03-28T19:53:50.3598303Z] memoryUsage: 31.843735 %
+[2023-03-28T19:53:51.3605253Z] memoryUsage: 31.83842 %
+[2023-03-28T19:53:52.3606355Z] memoryUsage: 31.840933 %
+[2023-03-28T19:53:53.3602107Z] memoryUsage: 31.838484 %
+[2023-03-28T19:53:54.3598795Z] memoryUsage: 31.837404 %
+[2023-03-28T19:53:55.3587789Z] memoryUsage: 31.84197 %
+[2023-03-28T19:53:56.3594426Z] memoryUsage: 31.84191 %
+[2023-03-28T19:53:57.3596268Z] memoryUsage: 31.83701 %
+[2023-03-28T19:53:58.3600988Z] memoryUsage: 31.835264 %
+[2023-03-28T19:53:59.3606494Z] memoryUsage: 31.834766 %
+[2023-03-28T19:54:00.3588951Z] memoryUsage: 31.832733 %
+[2023-03-28T19:54:01.3601128Z] memoryUsage: 31.838255 %
+[2023-03-28T19:54:02.3602062Z] memoryUsage: 31.837091 %
+[2023-03-28T19:54:03.3603218Z] memoryUsage: 31.831362 %
+[2023-03-28T19:54:04.3602760Z] memoryUsage: 31.831362 %
+[2023-03-28T19:54:05.3604442Z] memoryUsage: 31.832212 %
+[2023-03-28T19:54:06.3598849Z] memoryUsage: 31.830574 %
+[2023-03-28T19:54:07.3593581Z] memoryUsage: 31.81631 %
+[2023-03-28T19:54:08.3596847Z] memoryUsage: 31.800823 %
+[2023-03-28T19:54:09.3595585Z] memoryUsage: 31.78573 %
+[2023-03-28T19:54:10.3599522Z] memoryUsage: 31.789944 %
+[2023-03-28T19:54:11.3594053Z] memoryUsage: 31.789093 %
+[2023-03-28T19:54:12.3587843Z] memoryUsage: 31.794262 %
+[2023-03-28T19:54:13.3583900Z] memoryUsage: 31.794262 %
+[2023-03-28T19:54:14.3613157Z] memoryUsage: 31.790796 %
+[2023-03-28T19:54:15.3609207Z] memoryUsage: 31.746637 %
+[2023-03-28T19:54:16.3605080Z] memoryUsage: 31.744436 %
+[2023-03-28T19:54:17.3588481Z] memoryUsage: 31.744146 %
+[2023-03-28T19:54:18.3604318Z] memoryUsage: 31.733206 %
+[2023-03-28T19:54:19.3594671Z] memoryUsage: 31.731918 %
+[2023-03-28T19:54:20.3593120Z] memoryUsage: 31.730486 %
+[2023-03-28T19:54:21.3593315Z] memoryUsage: 31.680202 %
+[2023-03-28T19:54:22.3599577Z] memoryUsage: 31.676197 %
+[2023-03-28T19:54:23.3594286Z] memoryUsage: 31.670362 %
+[2023-03-28T19:54:24.3617300Z] memoryUsage: 31.672419 %
+[2023-03-28T19:54:25.3603212Z] memoryUsage: 31.671608 %
+[2023-03-28T19:54:26.3597050Z] memoryUsage: 31.667622 %
+[2023-03-28T19:54:27.3599110Z] memoryUsage: 31.66731 %
+[2023-03-28T19:54:28.3603217Z] memoryUsage: 31.668577 %
+[2023-03-28T19:54:29.3610335Z] memoryUsage: 31.666002 %
+[2023-03-28T19:54:30.3594559Z] memoryUsage: 31.668722 %
+[2023-03-28T19:54:31.3590390Z] memoryUsage: 31.662163 %
+[2023-03-28T19:54:32.3595657Z] memoryUsage: 31.662163 %
+[2023-03-28T19:54:33.3601288Z] memoryUsage: 31.662971 %
+[2023-03-28T19:54:34.3583145Z] memoryUsage: 31.662495 %
+[2023-03-28T19:54:35.3601257Z] memoryUsage: 31.667498 %
+[2023-03-28T19:54:36.3603620Z] memoryUsage: 31.668785 %
+[2023-03-28T19:54:37.3668855Z] memoryUsage: 31.66266 %
+[2023-03-28T19:54:38.3604782Z] memoryUsage: 31.662037 %
+[2023-03-28T19:54:39.3600467Z] memoryUsage: 31.66289 %
+[2023-03-28T19:54:40.3601311Z] memoryUsage: 31.63999 %
+[2023-03-28T19:54:41.3602803Z] memoryUsage: 31.639013 %
+[2023-03-28T19:54:42.3594818Z] memoryUsage: 31.6386 %
+[2023-03-28T19:54:43.3617236Z] memoryUsage: 31.64682 %
+[2023-03-28T19:54:44.3610133Z] memoryUsage: 31.641504 %
+[2023-03-28T19:54:45.3614087Z] memoryUsage: 31.641504 %
+[2023-03-28T19:54:46.3592431Z] memoryUsage: 31.641193 %
+[2023-03-28T19:54:47.3595362Z] memoryUsage: 31.620495 %
+[2023-03-28T19:54:48.3605347Z] memoryUsage: 31.624771 %
+[2023-03-28T19:54:49.3595183Z] memoryUsage: 31.623568 %
+[2023-03-28T19:54:50.3612448Z] memoryUsage: 31.619436 %
+[2023-03-28T19:54:51.3595616Z] memoryUsage: 31.61896 %
+[2023-03-28T19:54:52.3589613Z] memoryUsage: 31.615948 %
+[2023-03-28T19:54:53.3603231Z] memoryUsage: 31.615242 %
+[2023-03-28T19:54:54.3594890Z] memoryUsage: 31.619581 %
+[2023-03-28T19:54:55.3608232Z] memoryUsage: 31.618254 %
+[2023-03-28T19:54:56.3591088Z] memoryUsage: 31.616282 %
+[2023-03-28T19:54:57.3600972Z] memoryUsage: 31.6146 %
+[2023-03-28T19:54:58.3604743Z] memoryUsage: 31.617153 %
+[2023-03-28T19:54:59.3615973Z] memoryUsage: 31.620121 %
+[2023-03-28T19:55:00.3617938Z] memoryUsage: 31.626038 %
+[2023-03-28T19:55:01.3604184Z] memoryUsage: 31.623049 %
+[2023-03-28T19:55:02.3587553Z] memoryUsage: 31.623049 %
+[2023-03-28T19:55:03.3604689Z] memoryUsage: 31.62367 %
+[2023-03-28T19:55:04.3606021Z] memoryUsage: 31.62367 %
+[2023-03-28T19:55:05.3596971Z] memoryUsage: 31.629194 %
+[2023-03-28T19:55:06.3621764Z] memoryUsage: 31.629194 %
+[2023-03-28T19:55:07.3600502Z] memoryUsage: 31.625208 %
+[2023-03-28T19:55:08.3589993Z] memoryUsage: 31.625208 %
+[2023-03-28T19:55:09.3601000Z] memoryUsage: 31.63075 %
+[2023-03-28T19:55:10.3602176Z] memoryUsage: 31.63019 %
+[2023-03-28T19:55:11.3600480Z] memoryUsage: 31.63484 %
+[2023-03-28T19:55:12.3609489Z] memoryUsage: 31.640177 %
+[2023-03-28T19:55:13.3602073Z] memoryUsage: 31.634861 %
+[2023-03-28T19:55:14.3601831Z] memoryUsage: 31.634487 %
+[2023-03-28T19:55:15.3601271Z] memoryUsage: 31.635527 %
+[2023-03-28T19:55:16.3605944Z] memoryUsage: 31.635319 %
+[2023-03-28T19:55:17.3618390Z] memoryUsage: 31.639698 %
+[2023-03-28T19:55:18.3613050Z] memoryUsage: 31.639679 %
+[2023-03-28T19:55:19.3601412Z] memoryUsage: 31.635693 %
+[2023-03-28T19:55:20.3593365Z] memoryUsage: 31.501972 %
+[2023-03-28T19:55:21.3595420Z] memoryUsage: 31.501598 %
+[2023-03-28T19:55:22.3606673Z] memoryUsage: 31.501514 %
+[2023-03-28T19:55:23.3609634Z] memoryUsage: 31.507952 %
+[2023-03-28T19:55:24.3604759Z] memoryUsage: 31.507141 %
+[2023-03-28T19:55:25.3597558Z] memoryUsage: 31.503155 %
+[2023-03-28T19:55:26.3600371Z] memoryUsage: 31.503155 %
+[2023-03-28T19:55:27.3602443Z] memoryUsage: 31.501495 %
+[2023-03-28T19:55:28.3600629Z] memoryUsage: 31.507225 %
+[2023-03-28T19:55:29.3600019Z] memoryUsage: 31.51119 %
+[2023-03-28T19:55:30.3603010Z] memoryUsage: 31.511044 %
+[2023-03-28T19:55:31.3605393Z] memoryUsage: 31.506767 %
+[2023-03-28T19:55:32.3595314Z] memoryUsage: 31.506124 %
+[2023-03-28T19:55:33.3598394Z] memoryUsage: 31.505377 %
+[2023-03-28T19:55:34.3600049Z] memoryUsage: 31.513763 %
+[2023-03-28T19:55:35.3601284Z] memoryUsage: 31.511564 %
+[2023-03-28T19:55:36.3621057Z] memoryUsage: 31.510546 %
+[2023-03-28T19:55:37.3591855Z] memoryUsage: 31.506145 %
+[2023-03-28T19:55:38.3596086Z] memoryUsage: 31.50519 %
+[2023-03-28T19:55:39.3597662Z] memoryUsage: 31.505627 %
+[2023-03-28T19:55:40.3596398Z] memoryUsage: 31.528961 %
+[2023-03-28T19:55:41.3600189Z] memoryUsage: 31.52786 %
+[2023-03-28T19:55:42.3592706Z] memoryUsage: 31.522547 %
+[2023-03-28T19:55:43.3613425Z] memoryUsage: 31.514345 %
+[2023-03-28T19:55:44.3601051Z] memoryUsage: 31.518187 %
+[2023-03-28T19:55:45.3606339Z] memoryUsage: 31.5153 %
+[2023-03-28T19:55:46.3600851Z] memoryUsage: 31.52537 %
+[2023-03-28T19:55:47.3597765Z] memoryUsage: 31.52537 %
+[2023-03-28T19:55:48.3592808Z] memoryUsage: 31.518663 %
+[2023-03-28T19:55:49.3584516Z] memoryUsage: 31.518373 %
+[2023-03-28T19:55:50.3610461Z] memoryUsage: 31.531908 %
+[2023-03-28T19:55:51.3606133Z] memoryUsage: 31.52705 %
+[2023-03-28T19:55:52.3599609Z] memoryUsage: 31.532263 %
+[2023-03-28T19:55:53.3590197Z] memoryUsage: 31.532158 %
+[2023-03-28T19:55:54.3593870Z] memoryUsage: 31.530828 %
+[2023-03-28T19:55:55.3592029Z] memoryUsage: 31.532822 %
+[2023-03-28T19:55:56.3640365Z] memoryUsage: 31.532822 %
+[2023-03-28T19:55:57.3617992Z] memoryUsage: 31.532822 %
+[2023-03-28T19:55:58.3602263Z] memoryUsage: 31.546753 %
+[2023-03-28T19:55:59.3596254Z] memoryUsage: 31.54447 %
+[2023-03-28T19:56:00.3612982Z] memoryUsage: 31.539154 %
+[2023-03-28T19:56:01.3596664Z] memoryUsage: 31.53849 %
+[2023-03-28T19:56:02.3604522Z] memoryUsage: 31.53849 %
+[2023-03-28T19:56:03.3602847Z] memoryUsage: 31.544863 %
+[2023-03-28T19:56:04.3604778Z] memoryUsage: 31.544863 %
+[2023-03-28T19:56:05.3612075Z] memoryUsage: 31.54615 %
+[2023-03-28T19:56:06.3597343Z] memoryUsage: 31.54615 %
+[2023-03-28T19:56:07.3606545Z] memoryUsage: 31.547417 %
+[2023-03-28T19:56:08.3597092Z] memoryUsage: 31.547417 %
+[2023-03-28T19:56:09.3599636Z] memoryUsage: 31.553812 %
+[2023-03-28T19:56:10.3601662Z] memoryUsage: 31.55186 %
+[2023-03-28T19:56:11.3623096Z] memoryUsage: 31.55456 %
+[2023-03-28T19:56:12.3599077Z] memoryUsage: 31.553707 %
+[2023-03-28T19:56:13.3598962Z] memoryUsage: 31.547148 %
+[2023-03-28T19:56:14.3605373Z] memoryUsage: 31.546732 %
+[2023-03-28T19:56:15.3595635Z] memoryUsage: 31.552109 %
+[2023-03-28T19:56:16.3601846Z] memoryUsage: 31.552109 %
+[2023-03-28T19:56:17.3594777Z] memoryUsage: 31.55269 %
+[2023-03-28T19:56:18.3594073Z] memoryUsage: 31.552027 %
+[2023-03-28T19:56:19.3599427Z] memoryUsage: 31.551195 %
+[2023-03-28T19:56:20.3599775Z] memoryUsage: 31.548206 %
+[2023-03-28T19:56:21.3603108Z] memoryUsage: 31.551569 %
+[2023-03-28T19:56:22.3594329Z] memoryUsage: 31.55105 %
+[2023-03-28T19:56:23.3653204Z] memoryUsage: 31.544636 %
+[2023-03-28T19:56:24.3605379Z] memoryUsage: 31.543264 %
+[2023-03-28T19:56:25.3610484Z] memoryUsage: 31.543783 %
+[2023-03-28T19:56:26.3617784Z] memoryUsage: 31.543783 %
+[2023-03-28T19:56:27.3602863Z] memoryUsage: 31.54912 %
+[2023-03-28T19:56:28.3596162Z] memoryUsage: 31.548725 %
+[2023-03-28T19:56:29.3604666Z] memoryUsage: 31.566475 %
+[2023-03-28T19:56:30.3596292Z] memoryUsage: 31.571915 %
+[2023-03-28T19:56:31.3604851Z] memoryUsage: 31.57619 %
+[2023-03-28T19:56:32.3603324Z] memoryUsage: 31.575901 %
+[2023-03-28T19:56:33.3620174Z] memoryUsage: 31.581444 %
+[2023-03-28T19:56:34.3597176Z] memoryUsage: 31.576794 %
+[2023-03-28T19:56:35.3596978Z] memoryUsage: 31.589437 %
+[2023-03-28T19:56:36.3606365Z] memoryUsage: 31.582544 %
+[2023-03-28T19:56:37.3604885Z] memoryUsage: 31.581362 %
+[2023-03-28T19:56:38.3592213Z] memoryUsage: 31.585886 %
+[2023-03-28T19:56:39.3595444Z] memoryUsage: 31.585077 %
+[2023-03-28T19:56:40.3638181Z] memoryUsage: 31.579763 %
+[2023-03-28T19:56:41.3720222Z] memoryUsage: 31.586489 %
+[2023-03-28T19:56:42.3690430Z] memoryUsage: 31.585638 %
+[2023-03-28T19:56:43.3611284Z] memoryUsage: 31.596205 %
+[2023-03-28T19:56:44.3654872Z] memoryUsage: 31.594772 %
+[2023-03-28T19:56:45.3601382Z] memoryUsage: 31.58894 %
+[2023-03-28T19:56:46.3609916Z] memoryUsage: 31.588648 %
+[2023-03-28T19:56:47.3608321Z] memoryUsage: 31.589188 %
+[2023-03-28T19:56:48.3601485Z] memoryUsage: 31.588108 %
+[2023-03-28T19:56:49.3605218Z] memoryUsage: 31.588108 %
+[2023-03-28T19:56:50.3603862Z] memoryUsage: 31.591658 %
+[2023-03-28T19:56:51.3600698Z] memoryUsage: 31.584724 %
+[2023-03-28T19:56:52.3598361Z] memoryUsage: 31.589396 %
+[2023-03-28T19:56:53.3600863Z] memoryUsage: 31.590225 %
+[2023-03-28T19:56:54.3605142Z] memoryUsage: 31.593859 %
+[2023-03-28T19:56:55.3603189Z] memoryUsage: 31.60017 %
+[2023-03-28T19:56:56.3590731Z] memoryUsage: 31.60017 %
+[2023-03-28T19:56:57.3604349Z] memoryUsage: 31.601603 %
+[2023-03-28T19:56:58.3604822Z] memoryUsage: 31.582336 %
+[2023-03-28T19:56:59.3603494Z] memoryUsage: 31.57997 %
+[2023-03-28T19:57:00.3597717Z] memoryUsage: 31.579742 %
+[2023-03-28T19:57:01.3592939Z] memoryUsage: 31.577665 %
+[2023-03-28T19:57:02.3590975Z] memoryUsage: 31.588606 %
+[2023-03-28T19:57:03.3600587Z] memoryUsage: 31.587444 %
+[2023-03-28T19:57:04.3599409Z] memoryUsage: 31.582773 %
+[2023-03-28T19:57:05.3611650Z] memoryUsage: 31.581963 %
+[2023-03-28T19:57:06.3601942Z] memoryUsage: 31.582462 %
+[2023-03-28T19:57:07.3605938Z] memoryUsage: 31.581507 %
+[2023-03-28T19:57:08.3604820Z] memoryUsage: 31.586987 %
+[2023-03-28T19:57:09.3598813Z] memoryUsage: 31.580717 %
+[2023-03-28T19:57:10.3617523Z] memoryUsage: 31.569216 %
+[2023-03-28T19:57:11.3620739Z] memoryUsage: 31.56878 %
+[2023-03-28T19:57:12.3592312Z] memoryUsage: 31.568178 %
+[2023-03-28T19:57:13.3616546Z] memoryUsage: 31.567762 %
+[2023-03-28T19:57:14.3674485Z] memoryUsage: 31.572102 %
+[2023-03-28T19:57:15.3597123Z] memoryUsage: 31.572704 %
+[2023-03-28T19:57:16.3596201Z] memoryUsage: 31.566849 %
+[2023-03-28T19:57:17.3611875Z] memoryUsage: 31.566372 %
+[2023-03-28T19:57:18.3592087Z] memoryUsage: 31.565956 %
+[2023-03-28T19:57:19.3599815Z] memoryUsage: 31.555431 %
+[2023-03-28T19:57:20.3602291Z] memoryUsage: 31.565708 %
+[2023-03-28T19:57:21.3609562Z] memoryUsage: 31.5546 %
+[2023-03-28T19:57:22.3606211Z] memoryUsage: 31.549036 %
+[2023-03-28T19:57:23.3595689Z] memoryUsage: 31.548248 %
+[2023-03-28T19:57:24.3605120Z] memoryUsage: 31.546629 %
+[2023-03-28T19:57:25.3600902Z] memoryUsage: 31.545757 %
+[2023-03-28T19:57:26.3599831Z] memoryUsage: 31.544926 %
+[2023-03-28T19:57:27.3590027Z] memoryUsage: 31.504608 %
+[2023-03-28T19:57:28.3599400Z] memoryUsage: 31.540607 %
+[2023-03-28T19:57:29.3629252Z] memoryUsage: 31.540607 %
+[2023-03-28T19:57:30.3603670Z] memoryUsage: 31.533861 %
+[2023-03-28T19:57:31.3596685Z] memoryUsage: 31.533009 %
+[2023-03-28T19:57:32.3591380Z] memoryUsage: 31.532719 %
+[2023-03-28T19:57:33.3592035Z] memoryUsage: 31.53303 %
+[2023-03-28T19:57:34.3599380Z] memoryUsage: 31.538303 %
+[2023-03-28T19:57:35.3605458Z] memoryUsage: 31.532469 %
+[2023-03-28T19:57:36.3602320Z] memoryUsage: 31.543182 %
+[2023-03-28T19:57:37.3598125Z] memoryUsage: 31.543182 %
+[2023-03-28T19:57:38.3590186Z] memoryUsage: 31.537764 %
+[2023-03-28T19:57:39.3600764Z] memoryUsage: 31.537619 %
+[2023-03-28T19:57:40.3607160Z] memoryUsage: 31.537619 %
+[2023-03-28T19:57:41.3602044Z] memoryUsage: 31.54096 %
+[2023-03-28T19:57:42.3684123Z] memoryUsage: 31.540731 %
+[2023-03-28T19:57:43.3599270Z] memoryUsage: 31.53546 %
+[2023-03-28T19:57:44.3620277Z] memoryUsage: 31.5371 %
+[2023-03-28T19:57:45.3610034Z] memoryUsage: 31.5371 %
+[2023-03-28T19:57:46.3605454Z] memoryUsage: 31.53982 %
+[2023-03-28T19:57:47.3600621Z] memoryUsage: 31.547377 %
+[2023-03-28T19:57:48.3603585Z] memoryUsage: 31.548061 %
+[2023-03-28T19:57:49.3589276Z] memoryUsage: 31.5524 %
