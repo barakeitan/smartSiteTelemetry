@@ -71,7 +71,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                     , ts_disk:f'{ts_disk}', ts_memory:f'{ts_memory}'}
         response_json = json.dumps(response).encode('utf-8')
         self.wfile.write(response_json)
-        
+        cpu = (str) (self.read_data(sys.path + "/files/cpu.txt"))
 
 
 with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
