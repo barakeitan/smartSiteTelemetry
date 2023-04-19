@@ -3,8 +3,10 @@ import socketserver
 import json
 import os
 import sys
+import datetime
 
-PORT = 8001  # Choose a port number you like
+
+PORT = 8000  # Choose a port number you like
 
 class MyHandler(http.server.BaseHTTPRequestHandler):
 
@@ -18,7 +20,10 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
             except OSError:
                 file.seek(0)
             line = (str)(file.readline()).split(' ')
-        return line[-2]
+#           timestamp = f'{line[0]}'
+#            datetime_obj = datetime.datetime.strptime(timestamp.decode("utf-8"), '[%Y-%m-%dT%H:%M:%S.%fZ]')
+#            formatted_timestamp = datetime_obj.strftime('%Y-%m-%d %H:%M:%S')
+        return str(line[0]), str(line[-2])
 
     def do_GET(self):
         # Read the request path
@@ -29,45 +34,18 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
 
         # Set the response headers
         self.send_header('Content-type', 'application/json')
-        self.send_header("Access-Control-Allow-Origin", "http://localhost:3000")
+        # self.send_header("Access-Control-Allow-Origin", "http://localhost:3000")
+        # self.send_header("Access-Control-Allow-Origin", "http://localhost:3001")
+        self.send_header("Access-Control-Allow-Origin", "http://localhost:3002")
         self.send_header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
         self.end_headers()
 
         cpu = disk = memory = ''
         ts_cpu = ts_disk = ts_memory = '' # ts - TimeStamp
-        with open(sys.path[0] + "/files/cpu.txt", "rb") as file:
-            try:
-                file.seek(-2, os.SEEK_END)
-                while file.read(1) != b'\n':
-                    file.seek(-2, os.SEEK_CUR)
-            except OSError:
-                 file.seek(0)
-            line = (str)(file.readline()).split(' ')
-            cpu = line[-2]
-            ts_cpu = line[0]
-            
- 
-        with open(sys.path[0] + "/files/disk.txt", "rb") as file:
-             try:
-                 file.seek(-2, os.SEEK_END)
-                 while file.read(1) != b'\n':
-                     file.seek(-2, os.SEEK_CUR)
-             except OSError:
-                 file.seek(0)
-             line = (str)(file.readline()).split(' ')
-             disk = line[-2]
-             ts_disk = line[0]
- 
-        with open(sys.path[0] + "/files/memory.txt", "rb") as file:
-             try:
-                 file.seek(-2, os.SEEK_END)
-                 while file.read(1) != b'\n':
-                     file.seek(-2, os.SEEK_CUR)
-             except OSError:
-                 file.seek(0)
-             line = (str)(file.readline()).split(' ')
-             memory = line[-2]
-             ts_memory = line[0]
+
+        ts_cpu, cpu = self.read_data(sys.path[0] + "/files/cpu.txt")
+        ts_disk, disk = self.read_data(sys.path[0] + "/files/disk.txt")
+        ts_memory, memory = self.read_data(sys.path[0] + "/files/memory.txt")
          
         response = {'ts_cpu':f'{ts_cpu}', 'cpu': f'{cpu}',
                     'ts_disk':f'{ts_disk}', 'disk' : f'{disk}',
