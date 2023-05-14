@@ -62,16 +62,60 @@ class DataLine():
 
 class MyHandler(http.server.BaseHTTPRequestHandler):
 
-    __cpu_curr__ = __disk_curr__ = __mem_curr__=0
+    # These __x_curr__ holds a pointer the the last place the file was read,
+    # it is used to increment the data every time we read from the files 
+    cpu_curr = disk_curr = mem_curr=0        
 
     def read_lines(self, path, count):
+        '''Read lines
+           ----------
+           @brief read the amount of lines and increment the current file seek t read from next time
+           @param path The path of the parent directory where the files are stored
+           @param count The number of lines you want to read from the files
+           @return json string with an array of records '''
         lines=[]
-        with open(path, "rb") as file:
-            for i in range(0,count-1,1):
-                lines.append(str(file.readline()))
-        return lines;
+        try:
+            cpu_fd = open(path + '/cpu.txt', "rt")
+            disk_fd = open(path + '/disk.txt', "rt")
+            mem_fd = open(path + '/memory.txt',"rt")
+
+            cpu_fd.seek(MyHandler.cpu_curr, 0) # 0 for the beginning of the file
+            disk_fd.seek(MyHandler.disk_curr, 0) 
+            mem_fd.seek(MyHandler.mem_curr, 0) 
+
+            for i in range(0,count, 1):
+                # Read a line
+                line = DataLine(cpuLine=str(cpu_fd.readline()), diskLine=str(disk_fd.readline()),memLine=str(mem_fd.readline()))
+                lines.append(line)
+
+                # update the file's current pointer position and update it accordingly
+                MyHandler.cpu_curr = cpu_fd.tell()
+                MyHandler.disk_curr = disk_fd.tell()
+                MyHandler.mem_curr = mem_fd.tell()
+                
+                # For some reason the readline function returns the same line every time, this solves it
+                cpu_fd.seek(MyHandler.cpu_curr, 0) # 0 for the beginning of the file
+                disk_fd.seek(MyHandler.disk_curr, 0) 
+                mem_fd.seek(MyHandler.mem_curr, 0) 
+
+        except Exception as e:
+            print(str(e))
+        finally:
+            # When the file is closed the seek goes back to 0
+            cpu_fd.close()
+            disk_fd.close()
+            mem_fd.close()
+        return lines
 
     def read_calander(self, path, fromDate, toDate):
+        '''
+        read_calander
+        -------------
+        @brief Reads from the log files all the data relevent for a given range of dates
+        @param path The path the the root directory where the files are stored
+        @param fromDate A string telling the initial time of the logs in the format of [yyyy-dd-MMThh:mm:ssZ]
+        @param toDate A string telling the end time of the logs in the format of [yyyy-dd-MMThh:mm:ssZ]
+        '''
         lines = []
         try:
             cpu_fd = open(path + '/cpu.txt', "rt")
@@ -124,34 +168,38 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
 
         # Set the response headers
         self.send_header('Content-type', 'application/json')
-        # self.send_header("Access-Control-Allow-Origin", "http://localhost:3000")
-        # self.send_header("Access-Control-Allow-Origin", "http://localhost:3001")
-        # self.send_header("Access-Control-Allow-Origin", "http://localhost:3002")
-        # self.send_header("Access-Control-Allow-Origin", "http://localhost:3007")
-        # self.send_header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
         self.end_headers()
 
-        cpu = disk = memory = ''
-        ts_cpu = ts_disk = ts_memory = '' # ts - TimeStamp
         response = ''
-
-        ts_cpu, cpu = self.read_last(sys.path[0] + "/files/cpu.txt")
-        ts_disk, disk = self.read_last(sys.path[0] + "/files/disk.txt")
-        ts_memory, memory = self.read_last(sys.path[0] + "/files/memory.txt")
          
-        if(path == "/"):
-            print('entered /')
-            # the -6 cuts off the +00:00 for zulu time from the time string format
-            ts_cpu = str(datetime.datetime.fromisoformat(ts_cpu.replace('[', '').replace('Z]', '')))[:-6]
-            ts_disk = str(datetime.datetime.fromisoformat(ts_disk.replace('[', '').replace('Z]', '')))[:-6]
-            ts_memory = str(datetime.datetime.fromisoformat(ts_memory.replace('[', '').replace('Z]', '')))[:-6]
-            response = {'ts_cpu':f'{ts_cpu}', 'cpu': f'{cpu}',
-                    'ts_disk':f'{ts_disk}', 'disk' : f'{disk}',
-                    'ts_memory':f'{ts_memory}', 'memory':f'{memory}'}
-            
-        elif(path == "/table"): # TODO : implement the read parameters and decide the time format standard
-            print('entered /table')
-            response = self.read_calander(sys.path[0] + '/files',b'[2023-03-28T19:50:24Z]', b'[2023-03-28T19:50:28Z]')
+        match path:
+            case '/':
+                lines = []
+                temp = self.read_lines(sys.path[0] + '/files', 3)
+                for i in range(0,3,1):
+                    lines.append(str(temp[i].toJson()))
+                response = {'data':lines}
+                print(response['data'])
+                pass
+            case '/last':
+                cpu = disk = memory = ''
+                ts_cpu = ts_disk = ts_memory = '' # ts - TimeStamp
+
+                ts_cpu, cpu = self.read_last(sys.path[0] + "/files/cpu.txt")
+                ts_disk, disk = self.read_last(sys.path[0] + "/files/disk.txt")
+                ts_memory, memory = self.read_last(sys.path[0] + "/files/memory.txt")
+
+                ts_cpu = str(datetime.datetime.fromisoformat(ts_cpu.replace('[', '').replace('Z]', '')).strftime("%d-%m-%y %H:%M:%S"))
+                ts_disk = str(datetime.datetime.fromisoformat(ts_disk.replace('[', '').replace('Z]', '')).strftime("%d-%m-%y %H:%M:%S"))
+                ts_memory = str(datetime.datetime.fromisoformat(ts_memory.replace('[', '').replace('Z]', '')).strftime("%d-%m-%y %H:%M:%S"))
+                response = {'ts_cpu':f'{ts_cpu}', 'cpu': f'{cpu}',
+                        'ts_disk':f'{ts_disk}', 'disk' : f'{disk}',
+                        'ts_memory':f'{ts_memory}', 'memory':f'{memory}'}
+            case '/table':
+                # TODO : implement the read parameters and decide the time format standard
+                response = self.read_calander(sys.path[0] + '/files',b'[2023-03-28T19:50:24Z]', b'[2023-03-28T19:50:28Z]')
+            case _:
+                pass
 
         response_json = json.dumps(response).encode('utf-8')
         self.wfile.write(response_json)
