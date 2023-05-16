@@ -55,9 +55,9 @@ class DataLine():
                 disk_str = str(datetime.datetime.fromisoformat(self.ts_disk))
                 mem_str = str(datetime.datetime.fromisoformat(self.ts_memory))
 
-                return {'ts_cpu':f'{cpu_str}', 'cpu': f'{self.cpu_data}',
-                    'ts_disk':f'{disk_str}', 'disk' : f'{self.disk_data}',
-                    'ts_memory':f'{mem_str}', 'memory':f'{self.memory_data}', 
+                return {"ts_cpu":f"{cpu_str}", "cpu": f"{self.cpu_data}",
+                    "ts_disk":f"{disk_str}", "disk" : f"{self.disk_data}",
+                    "ts_memory":f"{mem_str}", "memory":f"{self.memory_data}", 
                     }
 
 class MyHandler(http.server.BaseHTTPRequestHandler):
