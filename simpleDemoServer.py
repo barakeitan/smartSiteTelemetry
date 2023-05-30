@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import datetime
+import psutil
 
 # [{
 #       cpu_data: "7.89",
@@ -79,7 +80,15 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
             disk_fd = open(path + '/disk.txt', "rt")
             mem_fd = open(path + '/memory.txt',"rt")
 
-            cpu_fd.seek(MyHandler.cpu_curr, 0) # 0 for the beginning of the file
+            # get the file size by reading 0 bytes from the end 2 = SEEK_END and get the current fd 
+            cpu_fd.seek(0, 2)
+            cpu_file_size =  cpu_fd.tell()
+            disk_fd.seek(0, 2)
+            disk_file_size = disk_fd.tell()
+            mem_fd.seek(0, 2)
+            mem_file_size = mem_fd.tell()
+
+            cpu_fd.seek(MyHandler.cpu_curr, 0) # start from the last place you stopped, 0 for the beginning of the file
             disk_fd.seek(MyHandler.disk_curr, 0) 
             mem_fd.seek(MyHandler.mem_curr, 0) 
 
@@ -92,6 +101,13 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                 MyHandler.cpu_curr = cpu_fd.tell()
                 MyHandler.disk_curr = disk_fd.tell()
                 MyHandler.mem_curr = mem_fd.tell()
+
+                if MyHandler.cpu_curr == cpu_file_size:
+                    MyHandler.cpu_curr = 0
+                if MyHandler.disk_curr == disk_file_size:
+                    MyHandler.disk_curr = 0
+                if MyHandler.mem_curr == mem_file_size:
+                    MyHandler.mem_curr = 0
                 
                 # For some reason the readline function returns the same line every time, this solves it
                 cpu_fd.seek(MyHandler.cpu_curr, 0) # 0 for the beginning of the file
@@ -180,6 +196,10 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                     lines.append(str(temp[i].toJson()))
                 response = {'data':lines}
                 print(response['data'])
+                cpu_pr = psutil.cpu_percent();
+                disk_pr = psutil.disk_usage('/');
+                mem_pr = psutil.virtual_memory().percent;
+                print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
                 pass
             case '/last':
                 cpu = disk = memory = ''
