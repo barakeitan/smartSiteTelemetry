@@ -200,6 +200,20 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                 disk_pr = psutil.disk_usage('/');
                 mem_pr = psutil.virtual_memory().percent;
                 print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
+
+                #Get all running processes
+                processes = list(psutil.process_iter(attrs=['pid', 'name', 'cpu_percent']))
+
+                #Sort the processes by CPU usage in descending order
+                sorted_processes = sorted(processes, key=lambda p: p.info['cpu_percent'], reverse=True)
+
+                #Get the process with the highest CPU usage
+                highest_cpu_process = sorted_processes[0]
+
+                #Print the process details
+                print("Process ID:", highest_cpu_process.info['pid'])
+                print("Process Name:", highest_cpu_process.info['name'])
+                print("CPU Usage:", highest_cpu_process.info['cpu_percent'])
                 pass
             case '/last':
                 cpu = disk = memory = ''
