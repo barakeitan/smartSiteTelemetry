@@ -199,7 +199,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                 cpu_pr = psutil.cpu_percent();
                 disk_pr = psutil.disk_usage('/');
                 mem_pr = psutil.virtual_memory().percent;
-                print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
+                # print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
 
                 #Get all running processes
                 processes = list(psutil.process_iter(attrs=['pid', 'name', 'cpu_percent']))
@@ -211,9 +211,9 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                 highest_cpu_process = sorted_processes[0]
 
                 #Print the process details
-                print("Process ID:", highest_cpu_process.info['pid'])
-                print("Process Name:", highest_cpu_process.info['name'])
-                print("CPU Usage:", highest_cpu_process.info['cpu_percent'])
+                # print("Process ID:", highest_cpu_process.info['pid'])
+                # print("Process Name:", highest_cpu_process.info['name'])
+                # print("CPU Usage:", highest_cpu_process.info['cpu_percent'])
                 pass
             case '/last':
                 cpu = disk = memory = ''
@@ -226,9 +226,24 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                 ts_cpu = str(datetime.datetime.fromisoformat(ts_cpu.replace('[', '').replace('Z]', '')).strftime("%d-%m-%y %H:%M:%S"))
                 ts_disk = str(datetime.datetime.fromisoformat(ts_disk.replace('[', '').replace('Z]', '')).strftime("%d-%m-%y %H:%M:%S"))
                 ts_memory = str(datetime.datetime.fromisoformat(ts_memory.replace('[', '').replace('Z]', '')).strftime("%d-%m-%y %H:%M:%S"))
-                response = {'ts_cpu':f'{ts_cpu}', 'cpu': f'{cpu}',
-                        'ts_disk':f'{ts_disk}', 'disk' : f'{disk}',
-                        'ts_memory':f'{ts_memory}', 'memory':f'{memory}'}
+                
+                cpu_pr = psutil.cpu_percent();
+                disk_pr = psutil.disk_usage('/');
+                mem_pr = psutil.virtual_memory().percent;
+                print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
+
+                #Get all running processes
+                processes = list(psutil.process_iter(attrs=['pid', 'name', 'cpu_percent']))
+
+                #Sort the processes by CPU usage in descending order
+                sorted_processes = sorted(processes, key=lambda p: p.info['cpu_percent'], reverse=True)
+
+                #Get the process with the highest CPU usage
+                highest_cpu_process = sorted_processes[0]
+                
+                response = {'ts_cpu':f'{datetime.datetime.now()}', 'cpu': f'{cpu_pr}',
+                        'ts_disk':f'{datetime.datetime.now()}', 'disk' : f'{disk_pr}',
+                        'ts_memory':f'{datetime.datetime.now()}', 'memory':f'{mem_pr}'}
             case '/table':
                 # TODO : implement the read parameters and decide the time format standard
                 response = self.read_calander(sys.path[0] + '/files',b'[2023-03-28T19:50:24Z]', b'[2023-03-28T19:50:28Z]')
