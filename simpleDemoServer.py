@@ -240,10 +240,12 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
 
                 #Get the process with the highest CPU usage
                 highest_cpu_process = sorted_processes[0]
+                highest_process_name = highest_cpu_process.info['name']
                 
                 response = {'ts_cpu':f'{datetime.datetime.now()}', 'cpu': f'{cpu_pr}',
                         'ts_disk':f'{datetime.datetime.now()}', 'disk' : f'{disk_pr}',
-                        'ts_memory':f'{datetime.datetime.now()}', 'memory':f'{mem_pr}'}
+                        'ts_memory':f'{datetime.datetime.now()}', 'memory':f'{mem_pr}',
+                        'process':f'{highest_process_name}'}
             case '/table':
                 # TODO : implement the read parameters and decide the time format standard
                 response = self.read_calander(sys.path[0] + '/files',b'[2023-03-28T19:50:24Z]', b'[2023-03-28T19:50:28Z]')
