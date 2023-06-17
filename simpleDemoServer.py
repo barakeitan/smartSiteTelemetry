@@ -190,16 +190,12 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
          
         match path:
             case '/':
+
                 lines = []
-                temp = self.read_lines(sys.path[0] + '/files', 3)
-                for i in range(0,3,1):
-                    lines.append(str(temp[i].toJson()))
-                response = {'data':lines}
-                print(response['data'])
+
                 cpu_pr = psutil.cpu_percent();
                 disk_pr = psutil.disk_usage('/');
                 mem_pr = psutil.virtual_memory().percent;
-                # print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
 
                 #Get all running processes
                 processes = list(psutil.process_iter(attrs=['pid', 'name', 'cpu_percent']))
@@ -207,8 +203,18 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
                 #Sort the processes by CPU usage in descending order
                 sorted_processes = sorted(processes, key=lambda p: p.info['cpu_percent'], reverse=True)
 
+
                 #Get the process with the highest CPU usage
                 highest_cpu_process = sorted_processes[0]
+                highest_process_name = highest_cpu_process.info['name']
+
+                temp = self.read_lines(sys.path[0] + '/files', 3)
+                for i in range(0,3,1):
+                    lines.append(str(temp[i].toJson()))
+                response = {'data':lines, 'process':f'{highest_process_name}'}
+                print(response)
+
+                # print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
 
                 #Print the process details
                 # print("Process ID:", highest_cpu_process.info['pid'])
