@@ -5,6 +5,10 @@ import os
 import sys
 import datetime
 import psutil
+import threading
+import time
+import socket
+import requests
 
 # [{
 #       cpu_data: "7.89",
@@ -171,6 +175,7 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
             line = (str)(file.readline()).split(' ')
         return str(line[0][2:-1]), str(line[-2])
     
+
     # TODO : implement
     def read_time_range(self):
         pass
@@ -260,6 +265,85 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
 
         response_json = json.dumps(response).encode('utf-8')
         self.wfile.write(response_json)
+
+
+
+# Function to write data to a file
+def write_data(file_name, data):
+    with open(file_name, 'at') as file:
+        file.write(data + '\n')
+
+# Function to write data at a regular interval
+def write_data_interval(interval):
+    while True:
+
+        # Data for each file
+        cpu_pr = psutil.cpu_percent();
+        disk_pr = psutil.disk_usage('/');
+        mem_pr = psutil.virtual_memory().percent;
+
+        #Get all running processes
+        processes = list(psutil.process_iter(attrs=['pid', 'name', 'cpu_percent']))
+
+        #Sort the processes by CPU usage in descending order
+        sorted_processes = sorted(processes, key=lambda p: p.info['cpu_percent'], reverse=True)
+
+        #Get the process with the highest CPU usage
+        highest_cpu_process = sorted_processes[0]
+        highest_process_name = highest_cpu_process.info['name']
+
+        cpu_data = "["+str(datetime.datetime.now())+"] cpuUsage: " + str(cpu_pr) + " % p : " + highest_process_name
+        disk_data = "["+str(datetime.datetime.now())+"] DiskUtilization: " + str(disk_pr) + " %"
+        mem_data = "["+str(datetime.datetime.now())+"] mem: " + str(mem_pr) + " %"
+
+        write_data(sys.path[0] + "/files/cpu2.txt", cpu_data)
+        write_data(sys.path[0] + "/files/disk2.txt", disk_data)
+        write_data(sys.path[0] + "/files/memory2.txt", mem_data)
+        time.sleep(interval)
+
+def send_post_message():
+    url = "http://127.0.0.1:3007/api/entityTelemetry"
+    headers = {"Content-Type": "application/json"}  # Replace with your desired headers
+
+    hostname = socket.gethostname()
+    cpu_pr = psutil.cpu_percent();
+    disk_pr = psutil.disk_usage('/');
+    mem_pr = psutil.virtual_memory().percent;
+    print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
+
+    #Get all running processes
+    processes = list(psutil.process_iter(attrs=['pid', 'name', 'cpu_percent']))
+
+    #Sort the processes by CPU usage in descending order
+    sorted_processes = sorted(processes, key=lambda p: p.info['cpu_percent'], reverse=True)
+
+    #Get the process with the highest CPU usage
+    highest_cpu_process = sorted_processes[0]
+    highest_process_name = highest_cpu_process.info['name']
+
+    response = {"roomId": "647b44a207ab16da82a6a0ca", 
+                "siteId": "647b456a07ab16da82a6a0cb", "telemetryEntitiy":f'{hostname}', 
+                'ts_cpu':f'{datetime.datetime.now()}', 'cpu': f'{cpu_pr}',
+                'ts_disk':f'{datetime.datetime.now()}', 'disk' : f'{disk_pr}',
+                'ts_memory':f'{datetime.datetime.now()}', 'memory':f'{mem_pr}',
+                'process':f'{highest_process_name}'}
+    response_json = json.dumps(response).replace("\"", "\'")
+    print(response_json)
+    http_response = requests.post(url, json=response, headers=headers)
+
+    if http_response.status_code == 200:
+        print("POST request sent successfully!")
+    else:
+        print("Error sending POST request:", http_response.status_code)
+
+# Create and start threads for each file
+thread1 = threading.Thread(target=write_data_interval, args=(1,))
+thread1.start()
+
+# Send a POST message every three seconds indefinitely
+while True:
+    send_post_message()
+    time.sleep(3)
 
 
 with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
