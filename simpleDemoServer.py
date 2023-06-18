@@ -278,9 +278,16 @@ def write_data_interval(interval):
     while True:
 
         # Data for each file
-        cpu_pr = psutil.cpu_percent();
-        disk_pr = psutil.disk_usage('/');
-        mem_pr = psutil.virtual_memory().percent;
+        cpu_pr = psutil.cpu_percent()
+        
+        disk_pr = psutil.disk_usage('/')
+        total = disk_pr.total / (1024 ** 3) # Convert to GB
+        used = disk_pr.used / (1024 ** 3)
+        free = disk_pr.free / (1024 ** 3)
+        disk_percent1 = disk_pr.percent
+        disk_percent2 = (used / total) * 100
+
+        mem_pr = psutil.virtual_memory().percent
 
         #Get all running processes
         processes = list(psutil.process_iter(attrs=['pid', 'name', 'cpu_percent']))
@@ -293,7 +300,7 @@ def write_data_interval(interval):
         highest_process_name = highest_cpu_process.info['name']
 
         cpu_data = "["+str(datetime.datetime.now())+"] cpuUsage: " + str(cpu_pr) + " % p : " + highest_process_name
-        disk_data = "["+str(datetime.datetime.now())+"] DiskUtilization: " + str(disk_pr) + " %"
+        disk_data = "["+str(datetime.datetime.now())+"] DiskUtilization: " + str(disk_percent1) + " %"
         mem_data = "["+str(datetime.datetime.now())+"] mem: " + str(mem_pr) + " %"
 
         write_data(sys.path[0] + "/files/cpu2.txt", cpu_data)
