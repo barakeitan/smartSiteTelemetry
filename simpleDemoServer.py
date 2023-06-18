@@ -313,9 +313,9 @@ def send_post_message():
     headers = {"Content-Type": "application/json"}  # Replace with your desired headers
 
     hostname = socket.gethostname()
-    cpu_pr = psutil.cpu_percent();
-    disk_pr = psutil.disk_usage('/');
-    mem_pr = psutil.virtual_memory().percent;
+    cpu_pr = psutil.cpu_percent()
+    disk_pr = psutil.disk_usage('/').percent
+    mem_pr = psutil.virtual_memory().percent
     print('cpu '+str(cpu_pr)+'%, disk '+str(disk_pr)+'%, mem '+str(mem_pr)+'%;')
 
     #Get all running processes
